@@ -3337,7 +3337,7 @@ a.theme-header-logo img {
    our-service-area css
 =====================================*/
 .our-service-area {
-    background-color: #f2efea;
+    background-color: #f8f7f5;
 }
 
 /* service css */
@@ -3411,7 +3411,7 @@ ul.single-service li.service-content .service-text p {
     footer css
 ======================================*/
 .footer-top-area {
-    background-color: #f8f7f5;
+    background-color: #f2efea;
 }
 
 /* footer-list css */
@@ -3567,7 +3567,7 @@ ul.single-service li.service-content .service-text p {
 .footer-bottom-area {
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: #f8f7f5;
+    background-color:#f2efea;
     border-top: 1px solid var(--theme-border-color);
 }
 @media (max-width: 1199px) {

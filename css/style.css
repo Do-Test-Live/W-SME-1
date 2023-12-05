@@ -2371,7 +2371,6 @@ a.search-popup.search-popup-lg {
 }
 .slider-content::after {
     content: "";
-    background-image: url('../img/logo/bg-patern.png');
     position: absolute;
     bottom: 0;
     left: 0;
@@ -2636,7 +2635,8 @@ a.search-popup.search-popup-lg {
 =====================================*/
 .custom-text {
     padding-top: 100px;
-    padding-bottom: 0px;
+    padding-bottom: 100px;
+    background-color: #f3f2ee;
 
 }
 @media (max-width: 1199px) {
@@ -2648,7 +2648,7 @@ a.search-popup.search-popup-lg {
 @media (max-width: 767px) {
     .custom-text {
         padding-top: 60px;
-        padding-bottom: 0px;
+        padding-bottom: 60px;
     }
 }
 
@@ -2911,7 +2911,6 @@ ul.single-service li.service-content .ser-block .service-text p {
 }
 .testimonial-area::after {
     content: "";
-    background-image: url('../img/logo/bg-patern2.png');
     position: absolute;
     top: 0;
     left: 0;
@@ -2922,7 +2921,6 @@ ul.single-service li.service-content .ser-block .service-text p {
 }
 .testimonial-area::before {
     content: "";
-    background-image: url('../img/logo/bg-patern2.png');
     position: absolute;
     bottom: 0;
     left: 0;
@@ -3108,7 +3106,6 @@ ul.single-service li.service-content .ser-block .service-text p {
 }
 .special-category::after {
     content: "";
-    background-image: url('../img/logo/bg-patern2.png');
     position: absolute;
     top: 0;
     left: 0;
@@ -3119,7 +3116,6 @@ ul.single-service li.service-content .ser-block .service-text p {
 }
 .special-category::before {
     content: "";
-    background-image: url('../img/logo/bg-patern2.png');
     position: absolute;
     bottom: 0;
     left: 0;
@@ -3193,6 +3189,16 @@ ul.single-service li.service-content .ser-block .service-text p {
     .category-sub-template--16695162470659__18bdae0c-9397-438f-8c12-3cf27a5a055d {
         padding-top: 60px;
         padding-bottom: 60px;
+    }
+    .category-sub ul.nav-tabs {
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        border: none;
+        margin: -15px 0 0 -15px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-around;
     }
 }
 
@@ -4091,7 +4097,6 @@ a.theme-footer-logo img {
 }
 .footer-top-area::after {
     content: "";
-    background-image: url('../img/logo/bg-patern2.png');
     position: absolute;
     top: 0;
     left: 0;
