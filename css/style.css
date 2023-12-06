@@ -2512,7 +2512,7 @@ a.search-popup.search-popup-lg {
 }
 .slider-content .home-slider .slide-image .slider-info-content .slider-text-info span.sub-title {
     color: #fff;
-    font-size: 25px;
+    font-size: 50px;
     font-weight: 300;
 }
 .slider-content .home-slider .slide-image .slider-info-content .slider-text-info h2 {
@@ -3973,7 +3973,6 @@ ul.single-service li.service-content .ser-block .service-text p {
 }
 .blog-post .blog-post-content a.read-btn {
     margin-top: 23px;
-    display: none;
 }
 .blog-post .blog-post-content a.read-link {
     color: var(--font-color-body);
